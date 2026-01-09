@@ -1,4 +1,4 @@
-              # Pendulum Stabilization: Q-Learning and SARSA
+# Pendulum Stabilization: Q-Learning and SARSA
 
 This project presents a simple reinforcement learning framework to compare **Q-Learning** and **SARSA** algorithms on a classic control problem - **pendulum stabilization**.
 
@@ -20,7 +20,7 @@ Which means turn left, stay straight, turn right
 - **Reward function**:
   $r = -(\theta^2 + 0.1 \dot{\theta}^2)$
 
-An episode terminates when the pendulum exceeds a predefined angle limit.
+The episode terminates when the pendulum exceeds a predefined angle limit.
 
 ---
 
@@ -74,7 +74,7 @@ During training, the following metrics are recorded:
 ![Graph](images/graph.png)  
 
 ---
-Author
+Author  
 
 Mikhail Rogalsky  
 Master student, Robotics and Artificial Intelligence  
